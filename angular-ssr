@@ -1,0 +1,6 @@
+
+Server side Rendering in Angular = Angular Universal 
+
+commands: ng add @nguniveral/express-engine
+
+          npm run dev:ssr

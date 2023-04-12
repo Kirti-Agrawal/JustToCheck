@@ -1,0 +1,12 @@
+<h3>Hooks Implementation</h3>
+<p>Color Name:<input class="form-control" type="text" name="name" (blur)="handleDate($event)"></p>
+
+
+<h4>PersonDetails</h4>
+
+<p> First Name<input class="form-control" type="text" [(ngModel)]="firstName"></p>
+<p>Last Name<input class="form-control" type="text"  [(ngModel)]="lastName" ></p>
+<p><button class="btn btn-primary" (click)="updateDetails()">Update Details</button></p>
+<app-hookschild [parentData]=name [personObject]=person>
+    <h3 #content>Hello I am Content Child</h3>
+</app-hookschild>

@@ -1,0 +1,34 @@
+<div>
+    <h1>Hello App</h1>
+    <app-child></app-child>
+    <h2>App Component</h2>
+  </div>
+  <div>
+    <h1> Usage of NgContent </h1>
+    <div class="container">
+  
+  <!-- For Multiple elements at diff position use selector -->
+    <div class="row">
+      <div class="col-md-6">
+        
+        <app-child2 [products]="sellProducts">
+          <h3 class="heading">Best of Products </h3>
+          <a href="" class="link">See More..</a>
+        </app-child2>
+      </div>
+  
+        <!-- beauty of Angular : compo reusabl -->
+      <div class="col-md-6">
+  
+        <app-child2 [products]="topProducts">
+          <h3 class="heading">Top Products</h3>
+          <a href="" class="link">Please Visit..</a>
+        </app-child2> 
+      </div>
+    </div>
+    </div>
+  
+  
+    
+    
+  </div>

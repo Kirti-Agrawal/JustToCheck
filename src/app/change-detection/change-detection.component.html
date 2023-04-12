@@ -1,0 +1,11 @@
+<div *ngFor="let e of employee">
+  <h3>{{ e.name }}</h3>
+  <p>{{ e.age }}</p>
+  <app-change-strategy [employeeVal]="e"></app-change-strategy>
+  <button type="click" class="btn btn-primary" (click)="increaseAge(e)" >
+    Increase Age
+  </button>
+  <button type="click" class="btn btn-primary" (click)="decreaseAge(e)">
+    Decrease Age
+  </button>
+</div>
