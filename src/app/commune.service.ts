@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 
@@ -6,8 +7,12 @@ import { Injectable } from '@angular/core';
 })
 export class CommuneService {
  onevar : number=1;
-  constructor() { }
+  constructor(private http : HttpClient) { }
   
+  getUsers(){
+    ///fetch users data
+ return   this.http.get('http://localhost:3000/posts');
+  }
 }
 
 

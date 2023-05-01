@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChangeStrateyComponent } from './change-stratey.component';
+import { SubjectReplayComponent } from './subject-replay.component';
 
-describe('ChangeStrateyComponent', () => {
-  let component: ChangeStrateyComponent;
-  let fixture: ComponentFixture<ChangeStrateyComponent>;
+describe('SubjectReplayComponent', () => {
+  let component: SubjectReplayComponent;
+  let fixture: ComponentFixture<SubjectReplayComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ChangeStrateyComponent ]
+      declarations: [ SubjectReplayComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ChangeStrateyComponent);
+    fixture = TestBed.createComponent(SubjectReplayComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

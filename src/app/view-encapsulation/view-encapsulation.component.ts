@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './view-encapsulation.component.html',
   styleUrls: ['./view-encapsulation.component.css'],
   // encapsulation: ViewEncapsulation.Emulated   is by  default
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.ShadowDom
 })
 export class ViewEncapsulationComponent implements OnInit {
 

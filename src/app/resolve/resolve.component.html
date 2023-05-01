@@ -1,0 +1,13 @@
+<h3>See Resolve Guard is working</h3>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Release Date</th>
+    </tr>
+    <tr *ngFor="let user of users; let i=index;">
+        <td>{{user.id}}</td>
+        <td>{{user.title}}</td>
+        <td>{{user.releaseDate}}</td>
+    </tr>
+</table>

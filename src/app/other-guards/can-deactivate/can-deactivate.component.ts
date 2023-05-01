@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-can-deactivate',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CanDeactivateComponent implements OnInit {
 
+userName: FormControl = new FormControl();
   constructor() { }
 
   ngOnInit(): void {
